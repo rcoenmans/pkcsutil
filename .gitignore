@@ -1,1 +1,6 @@
+__pycache__
+.pytest_cache
 .vscode
+
+*.pem
+*.pfx
