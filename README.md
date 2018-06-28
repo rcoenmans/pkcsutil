@@ -17,7 +17,7 @@ pkcsutil
 |-- minica-key.pem
 |-- minica.pem
 |-- pkcsutil_test.py
-|-- plcsutil.py
+|-- pkcsutil.py
 
 python -m pytest pkcsutil_test.py
 ```
