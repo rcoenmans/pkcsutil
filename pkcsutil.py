@@ -43,7 +43,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='pkcsutil converts a PEM formatted certificate/private key to PKCS12.')
     parser.add_argument('--key',  help='Private key filename, PEM encoded.')
     parser.add_argument('--cert', help='Certificate filename, PEM encoded.')
-    parser.add_argument('--passphrase', help='Passphrase for the private key.', default="")
+    parser.add_argument('--passphrase', help='Passphrase for the private key.', default='')
     parser.add_argument('--out',  help='Output filename (.pfx).')
 
     args = parser.parse_args()
